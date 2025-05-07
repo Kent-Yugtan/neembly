@@ -6,5 +6,8 @@ export default defineNuxtConfig({
   ],
   build: {
     transpile: ['vuetify']
+  },
+  nitro: {
+    compatibilityDate: '2025-05-07'
   }
 })
