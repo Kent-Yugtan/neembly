@@ -37,7 +37,6 @@
                             prepend-icon="mdi-plus-box"
                             large
                             @click="goTo('/create')"
-                            :block="$vuetify.display.xs"
                         >
                             Create Product
                         </v-btn>
@@ -48,7 +47,6 @@
                             prepend-icon="mdi-view-grid"
                             large
                             @click="goTo('/products')"
-                            :block="$vuetify.display.xs"
                         >
                             View Products
                         </v-btn>
