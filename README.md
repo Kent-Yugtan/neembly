@@ -37,7 +37,10 @@ Locally preview production build:
 npm run preview
 ```
 
-USE NODE VERSION 22
-USE NPM VERSION 10
-
+VERSION REQUIRED
+```bash
+# NODE AND NPM
+NODE VERSION 22
+NPM VERSION 10
+```
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
