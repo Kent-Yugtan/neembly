@@ -62,13 +62,13 @@ export default {
       return this.type === 'success' ? 'Success' : "Error"
     },
     iconColor() {
-      return this.type === 'success' ? '#2e7d32' : '#c62828' // green / red
+      return this.type === 'success' ? '#2e7d32' : '#c62828' 
     },
     titleColor() {
       return this.type === 'success' ? '#2e7d32' : '#c62828'
     },
     buttonColor() {
-      return this.type === 'success' ? 'green' : 'red' // these are Vuetify v3-supported color names
+      return this.type === 'success' ? 'green' : 'red'
     }
 
   },
