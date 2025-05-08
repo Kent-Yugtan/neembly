@@ -43,4 +43,16 @@ VERSION REQUIRED
 NODE VERSION 22
 NPM VERSION 10
 ```
+
+USED ECOSYSTEM
+```bash
+# NUXTJS 3 and VUETIFY
+Im using OPTIONS API.
+* Easier to read and write for developers coming from Vue 2.
+* Organizes code by option blocks (data, methods, computed, mounted, etc.), making it easier to follow for many developers.
+
+Overall 
+Im using OPTIONS API because it's simple, readable, aligns with Vuetify patterns, and avoids unnecessary complexity of the project scope.
+```
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
