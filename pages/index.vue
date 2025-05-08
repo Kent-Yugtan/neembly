@@ -4,7 +4,8 @@
         class="fill-height d-flex align-center justify-center"
         style="background: linear-gradient(to right, #f8f9fa, #e0f7fa);"
     >
-        <v-row class="w-100" justify="center">
+    <v-row class="w-100" justify="center">
+        
             <v-col
                 cols="12"
                 sm="10"
@@ -66,3 +67,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    .v-btn:hover {
+        background-color: #1976d2 !important;
+        color: white !important;
+    }
+</style>

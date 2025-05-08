@@ -77,8 +77,8 @@ export default {
       this.internalModelValue = false
     },
     confirmAndClose() {
-      // this.$emit('confirm')
-      this.closeDialog()
+      this.$emit('confirm')
+      this.$emit('update:modelValue', false)
     },
   },
 }
